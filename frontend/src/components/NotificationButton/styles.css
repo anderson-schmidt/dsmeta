@@ -10,11 +10,6 @@
     cursor: pointer;/*quando passar mouse por cima, se transforma na mão*/
 }
 
-.dsmeta-red-btn-container{
-    display: flex;
-    justify-content: center;
-}
-
 .dsmeta-red-btn img{
     width: 19px;
 }
