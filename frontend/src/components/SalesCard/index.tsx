@@ -7,6 +7,7 @@ import axios from "axios";
 import { BASE_URL } from "../../utils/request";
 import { Sale } from "../../models/sale";
 
+
 function SalesCard() {
 
     const min = new Date(new Date().setDate(new Date().getDate() - 365));
@@ -83,7 +84,7 @@ function SalesCard() {
                                             <td>
                                                 <div className="dsmeta-red-btn-container">
                                                     <div className="dsmeta-red-btn">
-                                                        <NotificationButton />
+                                                        <NotificationButton saleId={sale.id} />
                                                     </div>
                                                 </div>
                                             </td>
